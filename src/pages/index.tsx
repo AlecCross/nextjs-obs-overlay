@@ -12,6 +12,12 @@ const HomePage = () => {
         <li>
           <Link href="/Screenshot_2.png">Overlay 2</Link>
         </li>
+        <li>
+          <Link href="/overlay">Overlay page</Link>
+        </li>
+        <li>
+          <Link href="/overlay2">Overlay2 page</Link>
+        </li>
       </ul>
     </div>
   );
