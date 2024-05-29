@@ -1,3 +1,5 @@
+/* styles/overlay.module.css */
+
 .wrapper {
     width: 1920px;
     height: 1080px;
@@ -10,9 +12,7 @@
 .message {
     color: transparent;
     -webkit-text-stroke: 5px black;
-    /* Обводка тексту */
     outline: 8px solid black;
-    /* Прямокутна обводка */
     font-size: 140px;
     font-weight: bolder;
     text-align: center;
