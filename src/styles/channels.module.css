@@ -1,0 +1,30 @@
+.wrapper {
+    position: fixed; /* Закріпити елемент у фіксованій позиції */
+    top: 0; /* Відстань від верхнього краю */
+    right: 0; /* Відстань від правого краю */
+    margin: 10px; /* Відступи для зручності */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Напівпрозорий фон для кращої видимості */
+    padding: 10px;
+    border-radius: 5px; /* Круглі кути для естетики */
+
+}
+
+.item{
+    list-style: none;
+}
+
+.title {
+    color: blue;
+    -webkit-text-stroke: 1px white;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+.subscribers {
+    color: yellow;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: xx-large;
+}

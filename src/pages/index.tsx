@@ -24,9 +24,6 @@ const HomePage = () => {
         <li>
           <Link href="/overlay">Overlay page</Link>
         </li>
-        <li>
-          <Link href="/overlay2">Overlay2 page</Link>
-        </li>
         <div>
           <h1>Welcome to NextAuth.js Example</h1>
           <SignInButton />

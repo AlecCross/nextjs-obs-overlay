@@ -2,11 +2,11 @@
 
 import React from 'react';
 import styles from "../styles/overlay.module.css"
-import SubscriberCount from '../components/SubscriberCount';
+import UserChannels from '../components/UserChannels';
 
 const Overlay = () => {
     return <div className={styles.wrapper}>
-        <SubscriberCount />
+        <UserChannels/>
         <div className={styles.message}>SomeMessage</div>
     </div>
 };
